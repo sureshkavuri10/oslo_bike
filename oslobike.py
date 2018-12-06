@@ -41,7 +41,7 @@ def main():
         print ("Timeout Error:",Errt)
         return False
     except requests.exceptions.RequestException as Err:
-        print ("OOps: Something Else",Err)
+        print ("Error: Something Else",Err)
         return False
 
 if __name__ == '__main__':
